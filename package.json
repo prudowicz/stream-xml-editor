@@ -1,0 +1,49 @@
+{
+  "name": "stream-xml-editor",
+  "version": "1.0.0",
+  "description": "Library for streamable editing for large XML files (2G+), supports reading and appending new node based on value in large xml file.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "types": "@types/stream-xml-editor/index.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "jest tests/index.test.ts && jest tests/spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prudowicz/stream-xml-editor.git"
+  },
+  "keywords": [
+    "stream xml",
+    "xml",
+    "append node"
+  ],
+  "author": "prudowicz",
+  "homepage": "https://github.com/prudowicz/stream-xml-editor#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/byte-size": "^8.1.2",
+    "@types/jest": "^29.5.11",
+    "@types/node-random-name": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "byte-size": "^8.1.1",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "libxmljs": "^1.0.11",
+    "lorem-ipsum": "^2.0.8",
+    "node-random-name": "^1.0.1",
+    "random-title": "^1.0.4",
+    "ts-jest": "^29.1.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "typescript-map": "^0.1.0"
+  },
+  "dependencies": {
+    "saxes": "^6.0.0"
+  }
+}
