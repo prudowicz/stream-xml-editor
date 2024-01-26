@@ -1,11 +1,10 @@
 {
   "name": "stream-xml-editor",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "Library for streamable editing for large XML files (2G+), supports reading and appending new node based on value in large xml file.",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
   "type": "module",
-  "types": "@types/stream-xml-editor/index.d.ts",
+  "types": "./src/index.d.ts",
   "directories": {
     "test": "tests"
   },
@@ -28,6 +27,7 @@
   "devDependencies": {
     "@types/byte-size": "^8.1.2",
     "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.7",
     "@types/node-random-name": "^1.0.2",
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",

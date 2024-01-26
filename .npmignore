@@ -1,6 +1,5 @@
 node_modules/
 tests
-src
 typings-custom
 .eslintrc.json
 jest.config.cjs
